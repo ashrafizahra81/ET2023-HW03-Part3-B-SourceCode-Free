@@ -1,0 +1,20 @@
+{
+    "description":"mom_and_child Problem",
+    "actions": ["telling the truth", "refraining"],
+    "background": [],
+    "consequences": ["Damage to the child's self-confidence", "build child's self-confidence", "Increased enthusiasm and more effort", "becoming successful"],
+    "mechanisms": {
+                    "Damage to the child's self-confidence": "telling the truth",
+                    "build child's self-confidence": "Not('telling the truth')",
+                    "Increased enthusiasm and more effort": "build child's self-confidence",
+                    "becoming successful": "Increased enthusiasm and more effort"
+                  },
+    "utilities": {
+	    "Damage to the child's self-confidence": -6,
+        "becoming successful": 7,
+        "Not('becoming successful')": -7
+    },
+    "intentions": {
+        "Not('telling the truth')": ["Not('telling the truth')", "becoming successful"]
+                  }
+}

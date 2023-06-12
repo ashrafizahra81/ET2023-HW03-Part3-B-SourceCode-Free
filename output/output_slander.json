@@ -1,0 +1,12 @@
+{
+    "problem_description": "This is the solution of the slander problem in relativism",
+    "initialState": {
+        "reputation of the first person is preserved": "False",
+        "reputation of the second person is preserved": "False"
+    },
+    "solution": "In relativism and based on its principles the maximum utility is for telling the truth, with 14, which causes to \"reputation of the first person is preserved\" consequence.",
+    "goal": "reputation of the first person is preserved",
+    "intentions": {
+        "reputation of the first person is preserved": "telling the truth"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "problem_description": "This is the solution of the mom_and_child problem in relativism",
+    "initialState": {
+        "Damage to the child's self-confidence": "False",
+        "build child's self-confidence": "False",
+        "Increased enthusiasm and more effort": "False",
+        "becoming successful": "False"
+    },
+    "solution": "In relativism and based on its principles the maximum utility is for Not('telling the truth'), with 7, which causes to \"becoming successful\" consequence.",
+    "goal": "becoming successful",
+    "intentions": {
+        "becoming successful": "Not('telling the truth')"
+    }
+}

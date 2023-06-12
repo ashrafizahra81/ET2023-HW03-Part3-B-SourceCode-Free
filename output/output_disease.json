@@ -1,0 +1,12 @@
+{
+    "problem_description": "This is the solution of the disease problem in relativism",
+    "initialState": {
+        "dying in 6 months": "False",
+        "living for more than 6 months": "False"
+    },
+    "solution": "In relativism and based on its principles the maximum utility is for Not('telling the truth'), with 7, which causes to \"living for more than 6 months\" consequence.",
+    "goal": "living for more than 6 months",
+    "intentions": {
+        "living for more than 6 months": "Not('telling the truth')"
+    }
+}

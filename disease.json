@@ -1,0 +1,17 @@
+{
+    "description":"disease Problem",
+    "actions": ["telling the truth", "refraining"],
+    "background": [],
+    "consequences": ["dying in 6 months", "living for more than 6 months"],
+    "mechanisms": {
+                    "living for more than 6 months": "Not('telling the truth')",
+                    "dying in 6 months": "'telling the truth'"
+                  },
+    "utilities": {
+	    "dying in 6 months": -6,
+        "living for more than 6 months": 7
+    },
+    "intentions": {
+        "Not('telling the truth')": ["Not('telling the truth')", "living for more than 6 months"]
+                  }
+}

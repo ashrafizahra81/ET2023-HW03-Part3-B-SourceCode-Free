@@ -1,0 +1,18 @@
+{
+    "description":"Party Problem",
+    "actions": ["telling the truth", "refraining"],
+    "background": [],
+    "consequences": ["host believes something wrong", "no trouble for the host", "some work for the host to do"],
+    "mechanisms": {
+                    "host believes something wrong": "Not('telling the truth')",
+                    "no trouble for the host": "Not('telling the truth')",
+                    "some work for the host to do": "'telling the truth'"
+                  },
+    "utilities": {
+	    "host believes something wrong": -5,
+        "no trouble for the host": 6
+    },
+    "intentions": {
+        "telling the truth": ["telling the truth", "some work for the host to do"]
+                  }
+}

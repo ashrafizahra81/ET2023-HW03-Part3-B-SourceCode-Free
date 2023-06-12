@@ -1,0 +1,17 @@
+{
+    "description":"slander Problem",
+    "actions": ["telling the truth", "refraining"],
+    "background": [],
+    "consequences": ["reputation of the first person is preserved", "reputation of the second person is preserved"],
+    "mechanisms": {
+                    "reputation of the second person is preserved": "Not('telling the truth')",
+                    "reputation of the first person is preserved": "telling the truth"
+                  },
+    "utilities": {
+	    "reputation of the second person is preserved": -5,
+        "reputation of the first person is preserved": 14
+    },
+    "intentions": {
+        "telling the truth": ["telling the truth", "reputation of the first person is preserved"]
+                  }
+}
